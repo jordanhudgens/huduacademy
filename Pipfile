@@ -7,6 +7,8 @@ verify_ssl = true
 
 [packages]
 flask = "*"
+flask-heroku = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "2.7"
