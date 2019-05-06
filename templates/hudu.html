@@ -25,7 +25,7 @@
             margin: 0;
         }
         .first-section{
-            height: 50vh;
+            height: 500px;
             background-color: black;
             color: white;
             display: flex;
@@ -44,7 +44,8 @@
         }
         .first-logo{
             margin-top: 20px;
-            width: 15%;
+            min-width: 100px;
+            max-width: 15%;
         }
         .first-visit {
             height: 60px;
@@ -177,9 +178,10 @@
             margin-top: 20px;
             
         }
-        @media (max-width: 800px){
+        @media (max-width: 1024px){
             .first-content h2{
-                font-size: 3vw;
+                font-size: 30px;
+                width: 100%
             }
             .first-image{
                 opacity: 0;
@@ -197,6 +199,72 @@
             .second-logo img{
                 width: 200px;
                 height: 200px;
+            }
+        }
+        @media (max-width: 726px) {
+            .third-link h3{
+                font-size: 20px;
+            }
+            .third-links {
+                font-size: 20px;
+            }
+            .second-section{
+                height: 73vh;
+            }
+        }
+        @media (max-width: 620px){
+            .third-link-container{
+                /* flex-direction: column; */
+                height: 40vh;
+                flex-wrap: wrap; 
+            }
+            .third-link{
+                margin: 15px;
+            }
+            .third-section{
+                height: 95vh;
+                grid-gap: 25px;
+            }
+        }
+        @media (max-width: 570px){
+            .second-section{
+                height: 85vh;
+            }
+            .third-section{
+                grid-gap: 15px;
+            }
+        }
+        @media (max-width: 540px){
+            .third-section{
+                height: 100vh;
+                grid-gap: 5px;
+            }
+            .second-section{
+                height: 90vh
+            }
+            .third-link-container{
+                height: 35vh;
+            }
+        }
+        @media (max-width: 445px){
+            .third-section{
+                height: 100vh;
+                grid-gap: 5px;
+            }
+            .second-section{
+                height: 90vh
+            }
+            .third-link-container{
+                height: 25vh;
+            }
+            .third-link h3{
+                font-size: 18px;
+            }
+            .third-links{
+                font-size: 18px;
+            }
+            .second-list li{
+                font-size: 18px;
             }
         }
     </style>
