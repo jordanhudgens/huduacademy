@@ -178,7 +178,7 @@
             margin-top: 20px;
             
         }
-        @media (max-width: 1024px){
+        @media (max-width: 1026px){
             .first-content h2{
                 font-size: 30px;
                 width: 100%
@@ -191,7 +191,7 @@
             }
             .second-section{
                 flex-direction: column;
-                height: 70vh;
+                height: 100%;
             }
             .second-logo{
                 width: 100%;
@@ -199,6 +199,9 @@
             .second-logo img{
                 width: 200px;
                 height: 200px;
+            }
+            .third-section{
+                height: 80vw;
             }
         }
         @media (max-width: 726px) {
@@ -265,6 +268,34 @@
             }
             .second-list li{
                 font-size: 18px;
+            }
+        }
+        @media (max-width: 420px){
+            .third-section{
+                height: 110vh;
+                grid-gap: 2px;
+            }
+            .second-section{
+                height: 95vh
+            }
+            .second-logo{
+                width: 100vw;
+            }
+            .second-logo img{
+                width: 50vw;
+            }
+            .third-link-container{
+                height: 25vh;
+            }
+            .third-link h3{
+                font-size: 18px;
+                margin: 6px;
+            }
+            .third-links{
+                font-size: 18px;
+            }
+            .second-list li{
+                letter-spacing: .1px;
             }
         }
     </style>
